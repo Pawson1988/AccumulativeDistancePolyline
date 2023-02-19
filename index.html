@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="index.css"> 
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <div class="infoDiv">
+      <div class="distancesDiv"></div>
+      <div class="divEl"></div>
+      <button class="clearBtn">CLEAR</button>
+      <button class="removeLastBtn">Remove last</button>
+    </div>
+    <script class="scriptTag" src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap&libraries=geometry,places&v=weekly" defer></script>
+  </body>
+
+</html>
